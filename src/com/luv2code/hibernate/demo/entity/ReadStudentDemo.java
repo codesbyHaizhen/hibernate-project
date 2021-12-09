@@ -19,7 +19,7 @@ public class ReadStudentDemo {
 		Session session = factory.getCurrentSession();
 		
 		try {
-			// use the session object to save java object
+			// use the session object to read java object
 			
 			// create a Student object
 			Student tempStudent = new Student("Johanna", "Muster","johanna.muster@hotmail.com");

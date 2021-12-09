@@ -22,8 +22,7 @@ public class QueryStudentDemo {
 		Session session = factory.getCurrentSession();
 		
 		try {
-			// use the session object to save java object
-			
+
 			// start a transaction
 			System.out.println("start the transcaction...");
 			session.beginTransaction();
